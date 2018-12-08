@@ -1,11 +1,12 @@
-import Header from '../components/Header'
+import Layout from '../components/Layout'
 import styled from 'styled-components'
 
 const Index = () => (
-    <div>
-        <Header />
-        <p>Hello next.js</p>
-    </div>
+    <Layout>
+        <div>
+            <p>Hello next.js</p>
+        </div>
+    </Layout>
 )
 
 export default Index
