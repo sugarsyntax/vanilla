@@ -3,27 +3,31 @@ import styled from 'styled-components'
 
 const Nav = styled.nav`
     display: flex;
-    flex-direction: row;
-    text-align: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
 `;
 
-const Header = () => (
-    <div>
-        <Nav>
-            <Link href="../pages/index.js">
-                <a>Home</a>
-            </Link>
-            <Link href="../pages/about.js">
-                <a>About</a>
-            </Link>
-            <Link href="../pages/portfolio.js">
-                <a>Portfolio</a>
-            </Link>
-            <Link href="../pages/contact.js">
-                <a>contact</a>
-            </Link>
-        </Nav>
-    </div>
-)
+class Header extends React.Component {
+    render() {
+        return (
+            <div>
+                <Nav>
+                    <Link href="/index.js">
+                        <a>Home</a>
+                    </Link>
+                    <Link href="/about.js">
+                        <a>About</a>
+                    </Link>
+                    <Link href="/portfolio.js">
+                        <a>Portfolio</a>
+                    </Link>
+                    <Link href="/contact.js">
+                        <a>contact</a>
+                    </Link>
+                </Nav>
+            </div>
+            );
+        }
+    }
 
 export default Header
