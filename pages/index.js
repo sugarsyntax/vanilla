@@ -1,12 +1,12 @@
-import Layout from '../components/Layout'
+import Splash from '../components/Splash'
 import styled from 'styled-components'
 
 const Index = () => (
-    <Layout>
+    <Splash>
         <div>
             <p>Hello next.js</p>
         </div>
-    </Layout>
+    </Splash>
 )
 
 export default Index

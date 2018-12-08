@@ -1,8 +1,11 @@
+import Layout from '../components/Layout'
 
 const Portfolio = () => (
-    <div>
-        <h1>Portfolio</h1>
-    </div>
+    <Layout>
+        <div>
+            <p>This is the Portfolio</p>
+        </div>
+    </Layout>
 )
 
 export default Portfolio
