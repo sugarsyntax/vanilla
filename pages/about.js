@@ -3,9 +3,15 @@ import Layout from '../components/Layout'
 import styled from 'styled-components'
 
 const Para = styled.p`
-    margin: 2rem 7em;
-    font-size: 1.7em;
-    line-height: 2.2em;
+    margin: 1.5em 3.5em;
+    font-size: 1.9em;
+    line-height: 1.8em;
+    text-align: justify;
+    letter-spacing: 0em;
+    @media (max-width: 900px) {
+        margin: 1em 2em;
+        line-height: 1.5em;
+      }
 `;
 
 const About = () => (
