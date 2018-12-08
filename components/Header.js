@@ -5,6 +5,12 @@ const Nav = styled.nav`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 4rem 8rem;
+    font-size: 2.8rem;
+    a {
+        text-decoration: none;
+        color: #233FA2;
+    }
 `;
 
 class Header extends React.Component {
@@ -22,7 +28,7 @@ class Header extends React.Component {
                         <a>Portfolio</a>
                     </Link>
                     <Link href="/contact.js">
-                        <a>contact</a>
+                        <a>Contact</a>
                     </Link>
                 </Nav>
             </div>
