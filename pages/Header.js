@@ -6,16 +6,21 @@ const Nav = styled.nav`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0em;
+    margin: 0em auto;
     .nav-link {
         text-decoration: none;
         font-size: 2.5em;
     }
-    .navbar-nav {
+    .navbar {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 0.5em 4.5em;
+    }
+    .navbar-nav {
+        text-align: center;
+        justify-content: space-between;
+        padding-left: 5em;
+        padding-right: 5em;
     }
 `;
 
@@ -25,11 +30,11 @@ const Header = (props) => (
                     <title>Jacquelline.io</title>
                     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css"/>
                 </Head>
-                <Nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <Nav className="navbar navbar-expand-lg navbar-light bg-light col-12">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                    <div className="collapse navbar-collapse navbar-nav">
+                    <div className="collapse navbar-collapse navbar-nav mr-auto">
                         <Link className="nav-item" href="/">
                             <a className="nav-link">Home</a>
                         </Link>
