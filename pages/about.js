@@ -5,6 +5,7 @@ import styled from 'styled-components'
 const Para = styled.p`
     margin: 1.5em 3.5em;
     font-size: 1.9em;
+    font-color: #000;
     line-height: 1.8em;
     text-align: justify;
     letter-spacing: 0em;

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -117,7 +117,7 @@ var _jsxFileName = "/Users/jacquelline/Documents/vanilla/components/Layout.js";
 
 
 
-var Layout = function Layout(props) {
+var Layout = function Layout() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
@@ -156,7 +156,7 @@ var Layout = function Layout(props) {
       lineNumber: 13
     },
     __self: this
-  }), props.children);
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -198,7 +198,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n    margin: 0;\n    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#55ff32+16,9dff5b+27,d894ef+59,ff00d0+88 */\n    background: rgb(85,255,50); /* Old browsers */\n    background: -moz-linear-gradient(45deg, rgba(85,255,50,1) 16%, rgba(157,255,91,1) 27%, rgba(216,148,239,1) 59%, rgba(255,0,208,1) 88%); /* FF3.6-15 */\n    background: -webkit-linear-gradient(45deg, rgba(85,255,50,1) 16%,rgba(157,255,91,1) 27%,rgba(216,148,239,1) 59%,rgba(255,0,208,1) 88%); /* Chrome10-25,Safari5.1-6 */\n    background: linear-gradient(45deg, rgba(85,255,50,1) 16%,rgba(157,255,91,1) 27%,rgba(216,148,239,1) 59%,rgba(255,0,208,1) 88%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55ff32', endColorstr='#ff00d0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */\n    height: 30px;\n    text-align: center;\n    transform:rotate(45deg);\n      width:30px;\n    filter: blur(0.5px);\n"]);
+  var data = _taggedTemplateLiteral(["\n    margin: 0;\n    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#55ff32+16,9dff5b+27,d894ef+59,ff00d0+88 */\n    background: rgb(85,255,50); /* Old browsers */\n    background: -moz-linear-gradient(45deg, rgba(85,255,50,1) 16%, rgba(157,255,91,1) 27%, rgba(216,148,239,1) 59%, rgba(255,0,208,1) 88%); /* FF3.6-15 */\n    background: -webkit-linear-gradient(45deg, rgba(85,255,50,1) 16%,rgba(157,255,91,1) 27%,rgba(216,148,239,1) 59%,rgba(255,0,208,1) 88%); /* Chrome10-25,Safari5.1-6 */\n    background: linear-gradient(45deg, rgba(85,255,50,1) 16%,rgba(157,255,91,1) 27%,rgba(216,148,239,1) 59%,rgba(255,0,208,1) 88%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55ff32', endColorstr='#ff00d0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */\n    height: 30px;\n    transform:rotate(45deg);\n      width:30px;\n    filter: blur(0.5px);\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -208,7 +208,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    background-color: rgba(0, 0, 0, 0.05);\n    margin: 0;\n    padding 2.5rem 0rem;\n    text-align: center;\n"]);
+  var data = _taggedTemplateLiteral(["\n    background-color: rgba(0, 0, 0, 0.05);\n    margin: 0;\n    padding 3rem 0rem;\n    text-align: center;\n    height: 16em;\n    h1 {\n        color: #000;\n        text-align: center;\n    }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -240,25 +240,25 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 32
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Rect, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 33
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 34
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Diamond, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 35
         },
         __self: this
       }), "Title")));
@@ -309,7 +309,7 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 var Nav = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.nav(_templateObject());
 
-var Header = function Header(props) {
+var Header = function Header() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
@@ -344,7 +344,7 @@ var Header = function Header(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    class: "navbar-toggler",
+    className: "navbar-toggler",
     type: "button",
     "data-toggle": "collapse",
     "data-target": "#navbarColor03",
@@ -357,7 +357,7 @@ var Header = function Header(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    class: "navbar-toggler-icon",
+    className: "navbar-toggler-icon",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
@@ -371,7 +371,6 @@ var Header = function Header(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "nav-item",
     href: "/",
     __source: {
       fileName: _jsxFileName,
@@ -379,14 +378,13 @@ var Header = function Header(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link",
+    className: "nav-item nav-link",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "nav-item",
     href: "/about",
     __source: {
       fileName: _jsxFileName,
@@ -394,14 +392,13 @@ var Header = function Header(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link",
+    className: "nav-item nav-link",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
     },
     __self: this
   }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "nav-item",
     href: "/portfolio",
     __source: {
       fileName: _jsxFileName,
@@ -409,14 +406,13 @@ var Header = function Header(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link",
+    className: "nav-item nav-link",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 47
     },
     __self: this
   }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "nav-item",
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
@@ -424,13 +420,13 @@ var Header = function Header(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link",
+    className: "nav-item nav-link",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50
     },
     __self: this
-  }, "Contact")))), props.children);
+  }, "Contact")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -457,7 +453,7 @@ var _jsxFileName = "/Users/jacquelline/Documents/vanilla/pages/about.js";
 
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    margin: 1.5em 3.5em;\n    font-size: 1.9em;\n    line-height: 1.8em;\n    text-align: justify;\n    letter-spacing: 0em;\n    @media (max-width: 900px) {\n        margin: 1em 2em;\n        line-height: 1.5em;\n      }\n"]);
+  var data = _taggedTemplateLiteral(["\n    margin: 1.5em 3.5em;\n    font-size: 1.9em;\n    font-color: #000;\n    line-height: 1.8em;\n    text-align: justify;\n    letter-spacing: 0em;\n    @media (max-width: 900px) {\n        margin: 1em 2em;\n        line-height: 1.5em;\n      }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -477,31 +473,31 @@ var About = function About() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Para, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, "I am based in Los Angeles and I'm passionate about providing quality web development. I always go above and beyond to ensure I get the job done right the first time. My work stands out because I am persistent in manifesting your unique vision, you will not find cookie cutter websites here. My goal is to help freelancers, entrepreneurs, artists, and individuals showcase their work online on their terms.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   }), "I\u2019ve been doing web development for a short while, and I love it because it gives me the chance to meet people in different fields and challenge myself creatively. I look forward to working with you to help meet all your web development needs. View my resume")));
@@ -511,7 +507,7 @@ var About = function About() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/

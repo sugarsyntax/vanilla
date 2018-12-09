@@ -7,11 +7,11 @@ const Shape = styled.div`
     width: 100%;
     min-height: 196.85px;
     color: #fff;
-    background: #7A98FE;
+    background-color: rgba(0, 0, 0, 0.05);
     h2 {
         margin-top: 1rem;
         text-align: center;
-        color: #fff;
+        color: #919aa1;
         font-size: 3em;
     }
     ul {
@@ -20,6 +20,10 @@ const Shape = styled.div`
         justify-content: space-between;
         margin: 3rem;
         font-size: 1.8em;
+        color: #919aa1;
+    }
+    li {
+        list-style-type: none;
     }
     @media (max-width:920px) {
         min-height: auto;
@@ -48,10 +52,23 @@ const Img = styled.div `
 const Wrect = styled.div `
     background-color: #fff;
     width: 100%;
-    min-height: 11em;
+    min-height: 20em;
     z-index: 1;
+    img {
+        margin-right: 0em;
+        margin-left: 11em;
+        width: 15em;
+        border-radius: 100px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    p {
+        float: right;
+        margin-right: 6em;
+        font-size: 3em;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
 `;
-const Splash = (props) => (
+const Splash = () => (
             <div>
                 <Head>
                     <title>Jacquelline.io</title>
@@ -59,7 +76,10 @@ const Splash = (props) => (
                 </Head>
                 <Header />
                 <Img />
-                <Wrect />
+                <Wrect>
+                    <img src="/static/ABC.jpg" alt="my image" />
+                    <p>Hi, I'm Jackie, I'm a web developer</p>
+                </Wrect>
                 <Shape>
                     <h2>Skills</h2>
                     <ul>
@@ -71,7 +91,7 @@ const Splash = (props) => (
                         <li>Ruby</li>
                     </ul>
                 </Shape>
-                {props.children}
+                {/* {props.children} */}
             </div>
 )
 

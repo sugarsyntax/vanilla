@@ -3,7 +3,7 @@ import Header from '../pages/Header'
 import Title from './Title'
 import styled from 'styled-components'
 
-const Layout = (props) => (
+const Layout = () => (
             <div>
                 <Head>
                     <title>Jacquelline.io</title>
@@ -11,7 +11,7 @@ const Layout = (props) => (
                 </Head>
                 <Header />
                 <Title />
-                {props.children}
+                {/* {props.children} */}
             </div>
 )
 
