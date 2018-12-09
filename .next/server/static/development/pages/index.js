@@ -112,6 +112,26 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/jacquelline/Documents/vanilla/components/Splash.js";
 
 
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["\n    background-color: #fff;\n    width: 100%;\n    min-height: 11em;\n    z-index: 1;\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\n    top: 0;\n    width: 100vw;\n    min-height: 40em;\n    z-index: -1;\n    background-image: url(\"static/pexels-photo-1309766.jpeg\");\n\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
 function _templateObject() {
   var data = _taggedTemplateLiteral(["\n    position: absolute;\n    width: 100%;\n    min-height: 196.85px;\n    color: #fff;\n    background: #7A98FE;\n    h2 {\n        margin-top: 1rem;\n        text-align: center;\n        color: #fff;\n        font-size: 3em;\n    }\n    ul {\n        display: flex;\n        flex-direction: row;\n        justify-content: space-between;\n        margin: 3rem;\n        font-size: 1.8em;\n    }\n    @media (max-width:920px) {\n        min-height: auto;\n        ul {\n            flex-direction: column;\n            font-size: 2em;\n            margin: 0% 50%;\n            list-style-type: circle;\n        }\n    }\n"]);
 
@@ -128,24 +148,26 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 var Shape = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div(_templateObject());
+var Img = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div(_templateObject2());
+var Wrect = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div(_templateObject3());
 
 var Splash = function Splash(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 55
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 57
     },
     __self: this
   }, "Jacquelline.io"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -153,67 +175,79 @@ var Splash = function Splash(props) {
     href: "https://bootswatch.com/4/lux/bootstrap.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 58
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 60
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Img, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrect, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Shape, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 63
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 64
     },
     __self: this
   }, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 65
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 66
     },
     __self: this
   }, "HTML5/CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 67
     },
     __self: this
   }, "Javascript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 68
     },
     __self: this
   }, "Git/GitHub"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 69
     },
     __self: this
   }, "Bootstrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 70
     },
     __self: this
   }, "Unix"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 71
     },
     __self: this
   }, "Ruby"))), props.children);
@@ -244,7 +278,7 @@ var _jsxFileName = "/Users/jacquelline/Documents/vanilla/pages/Header.js";
 
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    margin: 0em auto;\n    .nav-link {\n        text-decoration: none;\n        font-size: 2.5em;\n    }\n    .navbar {\n        display: flex;\n        flex-wrap: wrap;\n        justify-content: space-between;\n    }\n    .navbar-nav {\n        text-align: center;\n        justify-content: space-between;\n        padding-left: 5em;\n        padding-right: 5em;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n    position: fixed;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    margin: 0em auto;\n    z-index: 1;\n    .nav-link {\n        text-decoration: none;\n        font-size: 2.5em;\n    }\n    .navbar {\n        display: flex;\n        flex-wrap: wrap;\n        justify-content: space-between;\n    }\n    .navbar-nav {\n        text-align: center;\n        justify-content: space-between;\n        padding-left: 5em;\n        padding-right: 5em;\n    }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -264,19 +298,19 @@ var Header = function Header(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 32
     },
     __self: this
   }, "Jacquelline.io"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -284,14 +318,14 @@ var Header = function Header(props) {
     href: "https://bootswatch.com/4/lux/bootstrap.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 33
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Nav, {
     className: "navbar navbar-expand-lg navbar-light bg-light col-12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
@@ -304,21 +338,21 @@ var Header = function Header(props) {
     "aria-label": "Toggle navigation",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     class: "navbar-toggler-icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "collapse navbar-collapse navbar-nav mr-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -326,14 +360,14 @@ var Header = function Header(props) {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 41
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -341,14 +375,14 @@ var Header = function Header(props) {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 44
     },
     __self: this
   }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -356,14 +390,14 @@ var Header = function Header(props) {
     href: "/portfolio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 47
     },
     __self: this
   }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -371,14 +405,14 @@ var Header = function Header(props) {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 50
     },
     __self: this
   }, "Contact")))), props.children);

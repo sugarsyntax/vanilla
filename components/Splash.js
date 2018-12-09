@@ -31,6 +31,26 @@ const Shape = styled.div`
         }
     }
 `;
+
+const Img = styled.div `
+    top: 0;
+    width: 100vw;
+    min-height: 40em;
+    z-index: -1;
+    background-image: url("static/pexels-photo-1309766.jpeg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+`;
+
+const Wrect = styled.div `
+    background-color: #fff;
+    width: 100%;
+    min-height: 11em;
+    z-index: 1;
+`;
 const Splash = (props) => (
             <div>
                 <Head>
@@ -38,6 +58,8 @@ const Splash = (props) => (
                     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css"/>
                 </Head>
                 <Header />
+                <Img />
+                <Wrect />
                 <Shape>
                     <h2>Skills</h2>
                     <ul>

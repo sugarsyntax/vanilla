@@ -3,10 +3,12 @@ import Head from 'next/head'
 import styled from 'styled-components'
 
 const Nav = styled.nav`
+    position: fixed;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0em auto;
+    z-index: 1;
     .nav-link {
         text-decoration: none;
         font-size: 2.5em;
