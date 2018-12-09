@@ -5,18 +5,30 @@ import styled from 'styled-components'
 const Shape = styled.div`
     position: absolute;
     width: 100%;
-    height: 196.85px;
+    min-height: 196.85px;
     color: #fff;
     background: #7A98FE;
     h2 {
         margin-top: 1rem;
         text-align: center;
+        color: #fff;
+        font-size: 3em;
     }
     ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin: 3rem;
+        font-size: 1.8em;
+    }
+    @media (max-width:920px) {
+        min-height: auto;
+        ul {
+            flex-direction: column;
+            font-size: 2em;
+            margin: 0% 50%;
+            list-style-type: circle;
+        }
     }
 `;
 const Splash = (props) => (
